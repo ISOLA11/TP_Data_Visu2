@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: Black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.app-bar {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: "Californian FB";
+    font-size: 100px;
+}
+
+.counter-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#increaseBtn:hover {
+   background-color: #68CF61;
+}
+
+#decreaseBtn:hover {
+   background-color: red;
+}
+
+
+#resetBtn:hover {
+   background-color: gray;
+}
+
+
